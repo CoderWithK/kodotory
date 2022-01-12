@@ -1,0 +1,17 @@
+let hero='Hello Peter';
+console.log(hero);
+console.log(hero.length);
+console.log(hero.indexOf('P'));
+console.log(hero.slice(5));
+let villain='     Hello DocOcto'   ;
+console.log(villain);
+console.log(villain.trim());
+console.log(villain.toUpperCase());
+console.log(villain.toLowerCase());
+console.log(villain.trim().toUpperCase());
+console.log(villain.replace('Hello','Hi'));
+console.log(villain.startsWith('Hello'));
+console.log(villain.endsWith('DocOcto'));
+console.log(villain.includes('DocOcto'));
+console.log(villain.indexOf('H'));
+document.write(<h1>This is a heading</h1>);
