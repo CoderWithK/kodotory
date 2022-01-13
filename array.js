@@ -1,0 +1,15 @@
+const anime=['naruto','demonslayer','deathnote','onepunchman'];
+console.log(anime);
+console.log(anime[1]);
+anime.pop();
+console.log(anime);
+const removeditem=anime.pop();
+console.log(removeditem);
+console.log(anime);
+const barca=['messi','neymar','suarez','xavi','iniesta'];
+barca.shift();
+console.log(barca);
+barca.push('rakitic');
+console.log(barca);
+barca.unshift('busquets');
+console.log(barca);
