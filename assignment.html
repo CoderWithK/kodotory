@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .forms{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="forms">
+            <input type="text">
+            <input type="checkbox">Tick/Untick
+        </div>
+        <div class="result">
+           <p>hi</p>
+        </div>
+    </div>
+    <div class="radio">
+        <input type="radio" name="gender" id="Male">Male
+        <input type="radio" name="gender" id="Female">Female
+    </div>
+    <div class="dropdown">
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars">
+            <option value="audi">Audi</option>
+            <option value="mercedes">Mercedes</option>
+            <option value="mustang">Mustang</option>
+            <option value="rollsroyce">Rolls-Royce</option>
+        </select>
+    </div>
+</body>
+</html>
